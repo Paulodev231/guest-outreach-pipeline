@@ -1,0 +1,48 @@
+{
+  "name": "Guest Outreach & Booking Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "guest-outreach-webhook",
+        "httpMethod": "POST"
+      },
+      "name": "Webhook - manual trigger / API",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        200,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "source",
+              "value": "={{ $json.source || 'csv' }}"
+            },
+            {
+              "name": "email",
+              "value": "={{ $json.email || '' }}"
+            },
+            {
+              "name": "firstName",
+              "value": "={{ $json.firstName || $json.first_name || '' }}"
+            }
+          ]
+        }
+      },
+      "name": "Set - normalize lead",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 1,
+      "position": [
+        460,
+        200
+      ]
+    }
+  ],
+  "connections": {},
+  "active": false,
+  "settings": {}
+}

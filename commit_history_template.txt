@@ -1,0 +1,4 @@
+- 2025-08-10: Initial scaffold and workflow JSON
+- 2025-08-11: Add templates and sample CSV
+- 2025-08-12: Add README and upload instructions
+- 2025-08-13: Minor fixes and testing notes

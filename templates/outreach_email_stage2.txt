@@ -1,0 +1,8 @@
+Subject: Following up — guest invite on [Podcast Name]
+
+Hi {{firstName}},
+
+Just checking in — wanted to see if you'd be open to appearing on [Podcast Name]. We typically record a short discussion focused on practical advice for listeners. If you'd prefer, reply with times that work for you or use this link: {{calendly_link}}
+
+Thanks,
+{{sender_name}}

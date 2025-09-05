@@ -1,0 +1,7 @@
+{
+  "smtp_host": "smtp.example.com",
+  "smtp_port": 587,
+  "smtp_user": "your-smtp-user",
+  "smtp_from": "podcast@example.com",
+  "notes": "Do not commit real credentials. Use n8n credentials or environment variables."
+}

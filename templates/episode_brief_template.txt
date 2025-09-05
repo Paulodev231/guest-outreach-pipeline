@@ -1,0 +1,12 @@
+Episode Brief
+Guest: {{firstName}} {{lastName}} ({{company}})
+Scheduled: {{event_time}}
+
+Topic / Focus:
+- Key points to cover
+- Guest background bullets
+
+Pre-interview checklist:
+- Confirm tech setup
+- Share questions with guest
+- Collect promotional assets (headshot, bio, links)

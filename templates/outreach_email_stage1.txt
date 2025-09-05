@@ -1,0 +1,10 @@
+Subject: Quick invite: be a guest on [Podcast Name]
+
+Hi {{firstName}},
+
+I'm the host of [Podcast Name]. I enjoyed your work at {{company}} and think you'd bring real value to our listeners. We'd love to discuss {{topic}} and explore cross-promotion possibilities.
+
+If you're interested, here’s a link to book a short call: {{calendly_link}}
+
+Best,
+{{sender_name}}
